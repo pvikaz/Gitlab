@@ -24,7 +24,7 @@ class _BotCommands:
         self.CancelAllCommand = [f'cancelall{CMD_SUFFIX}', 'cancelallbot']
         self.ListCommand = f'list1{CMD_SUFFIX}'
         self.SearchCommand = f'search1{CMD_SUFFIX}'
-        self.StatusCommand = [f'status1{CMD_SUFFIX}', f's{CMD_SUFFIX}', 'sall']
+        self.StatusCommand = [f'status1{CMD_SUFFIX}', f's1{CMD_SUFFIX}', 's', 'sall']
         self.UsersCommand = f'users1{CMD_SUFFIX}'
         self.AuthorizeCommand = [f'authorize1{CMD_SUFFIX}', f'a1{CMD_SUFFIX}']
         self.UnAuthorizeCommand = [f'unauthorize1{CMD_SUFFIX}', f'ua1{CMD_SUFFIX}']
@@ -34,7 +34,7 @@ class _BotCommands:
         self.RmSudoCommand = f'rmsudo1{CMD_SUFFIX}'
         self.PingCommand = [f'ping1{CMD_SUFFIX}', f'p1{CMD_SUFFIX}', 'p']
         self.RestartCommand = [f'restart1{CMD_SUFFIX}', f'r1{CMD_SUFFIX}', 'restartall', 'rall']
-        self.StatsCommand = [f'stats1{CMD_SUFFIX}', f'st1{CMD_SUFFIX}', 'st']
+        self.StatsCommand = [f'stats1{CMD_SUFFIX}', f'st1{CMD_SUFFIX}', 'st', 'stall']
         self.HelpCommand = f'help1{CMD_SUFFIX}'
         self.LogCommand = f'log1{CMD_SUFFIX}'
         self.ShellCommand = f'shell1{CMD_SUFFIX}'
